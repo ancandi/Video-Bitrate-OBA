@@ -28,12 +28,13 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 <br>
 
 ## ⚡ Technical Comparison
-| Feature | Chrome/Android Build | Safari/iOS Build |
-| :--- | :--- | :--- |
-| **Engine Focus** | Chromium / Blink | WebKit / Apple |
-| **Primary Method** | MediaSource Interception | Buffer-Aware Quality Forcing |
-| **Codec Strategy** | VP9/AV1 Priority | WebKit Native Decode Sync |
-| **Footprint** | < 1KB | < 1KB |
+| Feature | Generic YouTube (Mobile) | Generic Video Player | Overdrive Optimized |
+| :--- | :--- | :--- | :--- |
+| **Bitrate Cap** | Aggressive (App-Level) | Browser-Level Throttle | **Bypassed (Desktop Logic)** |
+| **Codec Priority** | Low-Bandwidth AVC1 | System Default | **High-Fidelity VP9/AV1** |
+| **Buffering** | Static/Predictive | Reactive (Late) | **rAF Real-time Monitoring** |
+| **Visual Clarity** | Muddy (Compression) | Standard | **Crisp (Zero-Artifact)** |
+| **Data Logic** | Throttled on Cellular | Unoptimized | **Adaptive Throughput** |
 
 <br>
 
