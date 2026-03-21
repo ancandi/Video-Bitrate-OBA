@@ -48,8 +48,8 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 > **Optimization Level:** Featherweight | **Last Updated:** 2026
 
 #### 🚀 Primary Utilities (ancandi)
-* **YouTube Mobile URL Shield AB+** — UI-driven unmute & ad-nuke (v3.0.7).
-* **Video Bitrate O/BA** — Adaptive codec & bitrate overdrive (v1.0.0).
+* **YouTube Mobile URL Shield AB+** — UI-driven unmute & monetization-nuke (v3.0.8).
+* **Video Bitrate O/BA** — Adaptive codec & bitrate overdrive (v1.0.1).
 * **Night Mode Disabler (Whitelist)** — Contrast control for mobile UI.
 * **YouTube Shield (Zero UI)** — Invisible automation engine (v4.0.1).
 
@@ -80,7 +80,7 @@ Forces high-fidelity VP9/AV1 streams and bypasses mobile data throttling by hija
 
 ---
 
-##### 🛡️ YouTube Mobile URL Shield AB+
+#### 🛡️ YouTube Mobile URL Shield AB+
 **Version 3.0.8** | *UI-Driven Interaction Off*
 Automates the "Tap to Unmute" process on mobile, nukes monetization-slots, and prevents player stalls with a custom frosted-glass UI.
 
