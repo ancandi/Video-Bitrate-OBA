@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name YouTube Bitrate O/BA [WebKit]
-// @version 1.2.2
+// @name YouTube Bitrate O/BA
+// @version 1.0.0-S
 // @match https://*.youtube.com/*
 // @run-at document-start
 // ==/UserScript==
