@@ -38,12 +38,49 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 
 <br>
 
-## ⚙️ Other Utility Extensions
-- Looking for more? Try out other userscript utilities: [Evade - Link Bypasser](https://skipped.lol/)
-
-`[System Overview: Available Consumer-Based Active Mobile Userscripts]`
+## 🔍 Looking for more?
 
 <img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/ea1f8205-4a4a-49f3-9eae-7b6e3d35873f" />
+
+- Looking for more? Try out other userscript utilities: [Evade - Link Bypasser](https://skipped.lol/)
+
+### This is the complete collection of high-performance, ultra-lean userscripts designed to reclaim control over mobile web experiences. ⬇
+> Otherwise, check out the full source code and technical documentation at **[github.com/ancandi](https://github.com/ancandi)**.
+
+---
+
+#### 🚀 Video Bitrate O/BA
+**Version 1.0.0** | *Adaptive Codec & Bitrate Overdrive*
+Forces high-fidelity VP9/AV1 streams and bypasses mobile data throttling by hijacking the MediaSource API and mapping bitrate to real-time resolution.
+
+* **>Install: Video Bitrate O/BA**
+    * [Standard Build (Blink)](https://github.com/ancandi/YouTube-Bitrate-Overdrive/raw/main/video-bitrate-oba.user.js)
+* **>Install: Video Bitrate O/BA [Safari]**
+    * [Safari Build (WebKit)](https://github.com/ancandi/YouTube-Bitrate-Overdrive/raw/main/video-bitrate-oba-safari.user.js)
+
+---
+
+##### 🛡️ YouTube Mobile URL Shield AB+
+**Version 3.0.7** | *UI-Driven Interaction Off*
+Automates the "Tap to Unmute" process on mobile, nukes monetization-slots, and prevents player stalls with a custom frosted-glass UI.
+
+* **>Install: YouTube Mobile URL Shield AB+**
+    * [Standard Build](https://github.com/ancandi/YouTube-Mobile-URL-Shield-AB/raw/refs/heads/main/main/url-shield-ab+-latest-beta.user.js)
+* **>Install: YouTube Mobile URL Shield AB+ [Safari]**
+    * [Safari Build (WebKit)](https://github.com/ancandi/YouTube-Mobile-URL-Shield-AB/raw/refs/heads/main/main/url-shield-ab+-safari-beta.user.js)
+
+---
+
+#### 🌙 Night Mode Disabler & Whitelist (M)
+**Version 1.0.0** | *Contrast & UI Control*
+Prevents aggressive "Forced Dark Mode" on mobile browsers from breaking specific site UI elements. Includes whitelist settings to maintain original site aesthetics where dark mode fails.
+
+* **>Install: Night Mode Disabler**
+    * [Standard Build](https://github.com/ancandi/Night-Mode-Disabler-Whitelist-M/raw/main/night-mode-disabler.user.js)
+* **>Install: Night Mode Disabler [Safari]**
+    * [Safari Build (WebKit)](https://github.com/ancandi/Night-Mode-Disabler-Whitelist-M/raw/main/night-mode-disabler-safari.user.js)
+      
+---
 
 <br>
 
