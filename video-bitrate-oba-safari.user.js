@@ -1,22 +1,27 @@
 // ==UserScript==
-// @name Video Bitrate O/BA
-// @version 1.0.0
-// @match https://*/*
+// @name Video Bitrate O/BA (Safari)
+// @version 1.0.1
+// @match *://*/*
 // @run-at document-start
 // ==/UserScript==
 
 (function(d, w) {
     'use strict';
-    (function l() {
-        d.querySelectorAll('video').forEach(v => {
-            const p = w.movie_player;
-            if (p && v.readyState > 0) {
-                p.setPlaybackQualityRange(v.videoHeight <= 360 ? 'hd720' : 'highres', 'highres');
-                w.eval('if(window.movie_player){movie_player.setOption("adaptive","min_bitrate",10000);movie_player.setOption("adaptive","max_frame_rate",60)}');
+    if (w.MediaSource) {
+        const n = w.MediaSource.isTypeSupported;
+        w.MediaSource.isTypeSupported = t => t.includes('codecs="avc1') ? !1 : n(t);
+    }
+
+    d.addEventListener('playing', (e) => {
+        const v = e.target;
+        if (v.tagName === 'VIDEO') {
+            v.preload = "auto";
+            if (w.movie_player) {
+                const r = v.videoHeight || 0;
+                const b = r > 1000 ? 18000 : r > 700 ? 12000 : 8000;
+                w.movie_player.setOption('adaptive', 'min_bitrate', b);
+                w.movie_player.setOption('adaptive', 'is_obfuscated', !1);
             }
-            v.setAttribute('importance', 'high');
-            v.preload = 'auto';
-        });
-        requestAnimationFrame(l);
-    })();
+        }
+    }, true);
 })(document, window);
