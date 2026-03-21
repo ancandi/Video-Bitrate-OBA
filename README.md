@@ -44,7 +44,7 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 
 - Major Public Userscripts Listed above. Try out other public userscript utilities: **[Evade - Link Bypasser](https://skipped.lol/)**
 
-### AND1 UserScripts — This is the complete collection of high-performance, ultra-lean userscripts designed to reclaim control over mobile web experiences. ⬇
+## AND1 UserScripts — This is the complete collection of high-performance, streamlined userscripts designed to reclaim control over mobile web experiences. ⬇
 > Otherwise, check out the full source code and technical documentation at **[github.com/ancandi](https://github.com/ancandi)**.
 
 ---
