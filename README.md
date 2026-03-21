@@ -38,6 +38,11 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 
 <br>
 
+## AND1 UserScripts — This is the complete collection of high-performance, streamlined userscripts designed to reclaim control over mobile web experiences. ⬇
+> Otherwise, check out the full source code and technical documentation at **[github.com/ancandi](https://github.com/ancandi)**.
+
+<br>
+
 ## 🔍 Looking for more?
 ### 🛠️ The Userscript Directory
 > **Optimization Level:** Featherweight | **Last Updated:** 2026
@@ -65,7 +70,7 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 ---
 
 #### 🚀 Video Bitrate O/BA
-**Version 1.0.0** | *Adaptive Codec & Bitrate Overdrive*
+**Version 1.0.1** | *Adaptive Codec & Bitrate Overdrive*
 Forces high-fidelity VP9/AV1 streams and bypasses mobile data throttling by hijacking the MediaSource API and mapping bitrate to real-time resolution.
 
 * **>Install: Video Bitrate O/BA**
@@ -76,7 +81,7 @@ Forces high-fidelity VP9/AV1 streams and bypasses mobile data throttling by hija
 ---
 
 ##### 🛡️ YouTube Mobile URL Shield AB+
-**Version 3.0.7** | *UI-Driven Interaction Off*
+**Version 3.0.8** | *UI-Driven Interaction Off*
 Automates the "Tap to Unmute" process on mobile, nukes monetization-slots, and prevents player stalls with a custom frosted-glass UI.
 
 * **>Install: YouTube Mobile URL Shield AB+**
@@ -87,7 +92,7 @@ Automates the "Tap to Unmute" process on mobile, nukes monetization-slots, and p
 ---
 
 #### 🌙 Night Mode Disabler & Whitelist (M)
-**Version 1.0.0** | *Contrast & UI Control*
+**Version 1.0.1** | *Contrast & UI Control*
 Prevents aggressive "Forced Dark Mode" on mobile browsers from breaking specific site UI elements. Includes whitelist settings to maintain original site aesthetics where dark mode fails.
 
 * **>Install: Night Mode Disabler**
