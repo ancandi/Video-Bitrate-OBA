@@ -21,9 +21,9 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 
 ## 🚀 Key Features
 * **Codec Overdrive**: Rejects low-bitrate AVC1 streams to force YouTube to serve superior VP9/AV1 containers with higher bit-per-pixel density.
-* **Buffer-Adaptive Sync**: Utilizes `requestAnimationFrame` to check buffer health at 60fps, scaling quality only when data headroom is detected.
-* **Data Saver Neutralization**: Overrides internal `is_obfuscated` flags that YouTube uses to silently throttle mobile users on cellular data.
-* **Zero-Latency Injection**: Executes at `document-start` to intercept the initial MediaSource manifest before the low-quality stream initializes.
+* **Buffer-Adaptive Sync**: Utilizes **`requestAnimationFrame`** to check buffer health at 60fps, scaling quality only when data headroom is detected.
+* **Data Saver Neutralization**: Overrides internal **`is_obfuscated`** flags that YouTube uses to silently throttle mobile users on cellular data.
+* **Zero-Latency Injection**: Executes at **`document-start`** to intercept the initial MediaSource manifest before the low-quality stream initializes.
 
 <br>
 
