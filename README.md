@@ -1,5 +1,5 @@
 # YouTube Bitrate O/BA 🚀📊
-**YouTube Bitrate O+ (Overdrive/Buffer Adaptive), A high-performance, ultra-lean solution designed to bypass mobile bitrate caps and force high-fidelity streams. maximum data-to-pixel efficiency and zero-stutter playback.**
+**YouTube Bitrate O/BA (Overdrive/Buffer Adaptive), A high-performance, ultra-lean solution designed to bypass mobile bitrate caps and force high-fidelity streams. maximum data-to-pixel efficiency and zero-stutter playback.**
 
 Unlike standard quality forcers, this script hijacks the **`MediaSource API`** and player internal options to prioritize high-bitrate codecs (VP9/AV1). It ensures that even at **`lower resolutions like 144p`**, the video maintains maximum visual data and clarity by neutralizing "Auto" throtte flags.
 
