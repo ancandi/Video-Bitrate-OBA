@@ -1,22 +1,31 @@
 // ==UserScript==
-// @name YouTube Bitrate O/BA
-// @version 1.0.0-S
+// @name YouTube Bitrate O/BA [WebKit]
+// @version 1.2.2
 // @match https://*.youtube.com/*
 // @run-at document-start
 // ==/UserScript==
 
 (function(d, w) {
     'use strict';
+    // GPU ACCELERATION: Force Safari to render high-fidelity paths
     const s = d.createElement('style');
-    s.innerText = 'video{-webkit-perspective:1000;video-rendering:optimizeQuality!important}';
+    s.innerText = 'video{video-rendering:optimizeQuality!important;-webkit-font-smoothing:antialiased}';
     d.documentElement.append(s);
+
     (function loop() {
         const p = d.querySelector('#movie_player') || w.movie_player, v = d.querySelector('video');
-        if (p && v) {
-            const b = v.buffered.length ? v.buffered.end(0) - v.currentTime : 0;
-            const q = b > 3 ? 'hd1080' : 'medium';
-            p.setPlaybackQualityRange(q, 'highres');
-            v.webkitVideoDecodedByteCount !== undefined && w.eval('if(window.movie_player){movie_player.setOption("adaptive","is_obfuscated",!1);movie_player.setOption("adaptive","max_frame_rate",60)}');
+        if (p && v && v.readyState > 0) {
+            const b = v.buffered.length ? v.buffered.end(v.buffered.length - 1) - v.currentTime : 0;
+            const q = b > 4 ? 'hd1080' : 'medium';
+            
+            p.setPlaybackQualityRange?.(q, 'highres');
+            // WebKit Bypass: Bypass power-saving throtte via internal eval
+            if (v.webkitVideoDecodedByteCount > 0) {
+                w.eval(`if(window.movie_player){
+                    movie_player.setOption("adaptive","is_obfuscated",false);
+                    movie_player.setOption("adaptive","max_frame_rate",60);
+                }`);
+            }
         }
         requestAnimationFrame(loop);
     })();
