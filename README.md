@@ -6,9 +6,9 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 <br>
 
 ## 📥 Installation
-**[Download for Chrome / Kiwi / Android](https://github.com/ancandi/YouTube-Bitrate-Overdrive/raw/main/youtube-bitrate-oba.user.js)** *(Optimized for Blink engine adaptive buffer logic)*
+**[Download for Chrome / Firefox / Android](https://github.com/ancandi/YouTube-Bitrate-OBA/raw/refs/heads/main/youtube-bitrate-oba.user.js)** *(Optimized for Blink engine adaptive buffer logic)*
 
-**[Download for Safari / iOS / macOS](https://github.com/ancandi/YouTube-Bitrate-Overdrive/raw/main/youtube-bitrate-oba-safari.user.js)** *(Optimized for WebKit hardware-accelerated decoding)*
+**[Download for Safari / iOS / macOS](https://github.com/ancandi/YouTube-Bitrate-OBA/raw/refs/heads/main/youtube-bitrate-oba-safari.user.js)** *(Optimized for WebKit hardware-accelerated decoding)*
 
 <br>
 
