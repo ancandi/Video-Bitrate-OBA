@@ -1,34 +1,34 @@
-# YouTube Bitrate O/BA 🚀📊
-**YouTube Bitrate O/BA (Overdrive/Buffer Adaptive), A high-performance, ultra-lean solution designed to bypass mobile bitrate caps and force high-fidelity streams. maximum data-to-pixel efficiency and zero-stutter playback.**
+# Video Bitrate O/BA 🚀📊
+**Video Bitrate O/BA (Overdrive/Buffer Adaptive), A high-performance, ultra-lean solution designed to bypass mobile bitrate caps and force high-fidelity streams. maximum data-to-pixel efficiency and zero-stutter playback.**
 
 Unlike standard quality forcers, this script hijacks the **`MediaSource API`** and player internal options to prioritize high-bitrate codecs (VP9/AV1). It ensures that even at **`lower resolutions like 144p`**, the video maintains maximum visual data and clarity by neutralizing "Auto" throtte flags.
 
 <br>
 
 ## 📥 Installation
-**[Download for Chrome / Firefox / Android](https://github.com/ancandi/YouTube-Bitrate-OBA/raw/refs/heads/main/youtube-bitrate-oba.user.js)** *(Optimized for Blink engine adaptive buffer logic)*
+**[Download for Chrome / Firefox / Android](https://github.com/ancandi/Video-Bitrate-OBA/raw/refs/heads/main/video-bitrate-oba.user.js)** *(Optimized for Blink engine adaptive buffer logic)*
 
-**[Download for Safari / iOS / macOS](https://github.com/ancandi/YouTube-Bitrate-OBA/raw/refs/heads/main/youtube-bitrate-oba-safari.user.js)** *(Optimized for WebKit hardware-accelerated decoding)*
+**[Download for Safari / iOS / macOS](https://github.com/ancandi/Video-Bitrate-OBA/raw/refs/heads/main/video-bitrate-oba-safari.user.js)** *(Optimized for WebKit hardware-accelerated decoding)*
 
 <br>
 
 ## 🛠️ How to Use
 * **Install**: Add the script via Tampermonkey, Userscripts (Safari), or your preferred mobile script manager.
 * **Automatic Scaling**: The engine monitors your real-time network buffer. On strong connections, it forces desktop-grade bitrates; if the buffer starves, it dynamically yields to prevent stalling.
-* **Universal Player Support**: Active across YouTube Shorts, the standard watch page, and embedded mobile players.
+* **Universal Player Support**: Active across sites like YouTube, the standard watch page, and embedded mobile players.
 
 <br>
 
 ## 🚀 Key Features
-* **Codec Overdrive**: Rejects low-bitrate AVC1 streams to force YouTube to serve superior VP9/AV1 containers with higher bit-per-pixel density.
+* **Codec Overdrive**: Rejects low-bitrate AVC1 streams to force video players to serve superior VP9/AV1 containers with higher bit-per-pixel density.
 * **Buffer-Adaptive Sync**: Utilizes **`requestAnimationFrame`** to check buffer health at 60fps, scaling quality only when data headroom is detected.
-* **Data Saver Neutralization**: Overrides internal **`is_obfuscated`** flags that YouTube uses to silently throttle mobile users on cellular data.
+* **Data Saver Neutralization**: Overrides internal **`is_obfuscated`** flags that video players use to silently throttle mobile users on cellular data.
 * **Zero-Latency Injection**: Executes at **`document-start`** to intercept the initial MediaSource manifest before the low-quality stream initializes.
 
 <br>
 
 ## ⚡ Technical Comparison
-| Feature | Generic YouTube (Mobile) | Generic Video Player | Overdrive Optimized |
+| Feature | Generic YouTube Web (Mobile) | Generic Video Player | Overdrive Optimized |
 | :--- | :--- | :--- | :--- |
 | **Bitrate Cap** | Aggressive (App-Level) | Browser-Level Throttle | **Bypassed (Desktop Logic)** |
 | **Codec Priority** | Low-Bandwidth AVC1 | System Default | **High-Fidelity VP9/AV1** |
