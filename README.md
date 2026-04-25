@@ -48,9 +48,10 @@ Unlike standard quality forcers, this script hijacks the **`MediaSource API`** a
 > **Optimization Level:** Featherweight | **Last Updated:** 2026
 
 #### 🚀 Primary Utilities (ancandi)
-* **YouTube Mobile URL Shield AB+** — UI-driven unmute & monetization-nuke (v3.0.8).
+* **YouTube Mobile URL Shield AB+** — UI-driven unmute & ad-nuke (v3.0.8).
 * **Video Bitrate O/BA** — Adaptive codec & bitrate overdrive (v1.0.1).
-* **Night Mode Disabler (Whitelist)** — Contrast control for mobile UI.
+* **Force Dark Mode Exceptions** — Contrast & UI control for Chromium/Desktop (v1.0).
+* **Night Mode Disabler (Whitelist)** — Contrast control for mobile UI (v1.0.1).
 * **YouTube Shield (Zero UI)** — Invisible automation engine (v4.0.1).
 
 #### 🔗 External Resources
